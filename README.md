@@ -5,7 +5,7 @@ Welcome to the repository for my CS 499 ePortfolio including my code review, ori
 
 ## Course Deliverables
 * **[Professional Self-Assessment](narratives-assessment/professionalselfassessment.docx)**
-* **[Code Review Video Walkthrough]**
+* **[Code Review Video (Google Drive)](https://drive.google.com/file/d/132BrGdGX3h-ITci6blpXRWqywBK1DSgS/view?usp=sharing)**
 
 ---
 
