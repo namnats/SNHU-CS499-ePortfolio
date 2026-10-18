@@ -11,8 +11,8 @@ Welcome to the repository for my CS 499 ePortfolio including my code review, ori
 
 ## Artifact Enhancements
 
-* **[View the Original Code Files](originalartifacts/inventorytrackerapp)**
-* **[View the Enhanced Files](enhancedartifacts/enhancedinventorytrackingapp)**
+* **[View the Original Code Files](originalartifacts/inventorytrackerapp/)**
+* **[View the Enhanced Files](enhancedartifacts/enhancedinventorytrackingapp/)**
 
 ### 1. Software Design and Engineering
 * **[Read the Narrative](narratives-assessment/softwarenarrative.docx)**
