@@ -60,11 +60,17 @@
         <h2>Artifact Enhancements</h2>
         <a href="https://github.com/namnats/SNHU-CS499-ePortfolio/tree/main/originalartifacts/inventorytrackerapp" target="_blank" class="btn">View the Original Code Files</a>
         <a href="https://github.com/namnats/SNHU-CS499-ePortfolio/tree/main/enhancedartifacts/enhancedinventorytrackingapp" target="_blank" class="btn">View the Enhanced Code Files</a>
+
+		<p></p>
+
+		<p>This artifact is the final project from my previous SNHU class, Mobile Architecture and Programming (CS 360). We were tasked with developing an application to help small businesses, I chose to program a mobile app that tracks inventory items for a multitude of purposes called "TrakTrak". Whether that be restaurants managing freezer stock, or clothing businesses managing back to school inventory. It features a secure login and registration screen, a dashboard for managing inventory, and an SMS notification opt in feature. It utilizes an SQLite database and the Android SDK runtime platform.</p>
         
         <hr>
 
         <h3>1. Software Design and Engineering</h3>
         <a href="narratives-assessment/softwarenarrative.docx" class="btn">Read the Narrative</a>
+
+		<p></p>
 
 		<p>This artifact was selected for my portfolio because it is a full stack inventory tracking application. It shows my ability to develop a complete and functional software system with a mobile interface, data persistence, and foundational security. Enhancing this artifact showcases that I can analyze legacy codebases and diagnose architectural defects to refactor so that it can meet higher standards in scalability, security, and stability. DatabaseHelper was refactored into a thread safe singleton pattern, using double checked locking that demonstrates my understanding of memory management and object lifecycle controls within the Android framework. I had hardcoded activity casting within InventoryAdapter, so I replaced it with a lambda callback interface (runnable). This demonstrates the ability to design decouple and reusable interface components. Along with this, I parameterized raw database statements, math floor boundaries, and runtime input validation to show that I can implement defense mechanisms that can preserve system data integrity and fight against code exploitation. I provided database connection consolidation, architectural decoupling, and made resource management more robust and enhanced security.</p>
 
@@ -75,10 +81,16 @@
 
 		<p></p>
 
+		<p>I selected this as an artifact for my ePortfolio as I feel it can incorporate all of the milestones necessary to show my growth and complete the capstone course. It’s a multifaceted design that is ultimately unoptimized and can be improved in the software area, data structure and algorithm, and database. This will showcase my skills in understanding legacy code and improving the function. I implemented a multi index memory cache layer and combined a hash table with a self-balancing red-black binary search tree to handle alphabetical sorting. I cut down processing time by replacing the linear search loop over a ArrayList with the dual index hash tree model. I enforced variable immutability inside InventoryItem using the final keyword which assists with code quality standards. I fixed database query parameters to isolate user account data as to not cross contaminate data. Then I had decoupled SQLite’s auto increment keys from the user interface and implemented a runtime sequential loop which makes it so that profiles track their inventories starting a 1 (which fixed a previous issue that the starting inventory number was 2 or a continuation of another database’s list).</p>
+
         <hr>
 
         <h3>3. Databases</h3>
         <a href="narratives-assessment/databasenarrative.docx" class="btn">Read the Narrative</a>
+
+		<p></p>
+
+		<p>I included this item in my portfolio as it is a full stack mobile application with real functionality, not only that, but it encompasses all of the milestones and has a great foundation to improve upon to show my growth. With this milestone, I found that the codebase has some technical debt and performance issues along with compromised safety. It relied on a structural runtime sorting collection within the view controller lifecycle, so I had changed the relational table queries to request sorted indices through an ORDER BY NAME ASC execution path. This reduced memory consumption on the host device. I also replaced plaintext login credentials with routing registration keys through a BCrypt cryptographic algorithm. Now the passwords won’t touch the database disk array without hashing.</p>
     </div>
 
 </body>
